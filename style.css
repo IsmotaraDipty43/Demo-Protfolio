@@ -234,3 +234,51 @@ padding: 8px 13px;
 margin-top: 20px;
 margin-left: 60px;
 }
+.second-part{
+    width: 1120px;
+height: 777px;
+
+margin: 0 auto;
+margin-top: 10px;
+}
+.heading6{
+    text-align: center;
+    margin-top: 150px;
+    color: rgb(13, 19, 33);
+font-family: "Azeret Mono";
+font-size: 32px;
+font-weight: 800;
+line-height: 37px;
+letter-spacing: 0%;
+text-align: center;
+}
+.paragraph-6{
+    margin-top: 20px;
+  margin-left: 100px;
+  margin-right: 100px;
+text-align: center;
+font-size: 16px;
+font-weight: 400;
+opacity: 0.7;
+}
+.frame {
+    height: 614px;
+    margin-top: 50px;
+    padding: 30px;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.2);
+    border-radius: 16px;
+    /* Ensures padding and border are included in the total width/height */
+}
+
+.frame iframe {
+    display: block; /* Ensures iframe fills the entire width of its container */
+    width: 100%; /* Makes the iframe take up the full width of its container */
+    height: 100%; /* Makes the iframe take up the full height of its container */
+}
+.third-part{
+    width: 1120px;
+height: 777px;  
+margin: 0 auto;
+margin-top: 7px;
+}
