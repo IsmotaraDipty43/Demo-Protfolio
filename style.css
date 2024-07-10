@@ -71,7 +71,10 @@ text-align: center;
     border-radius: 8px;
 background: rgb(13, 19, 33);
 margin-top: 30px;  
-padding: 15px;
+padding-top: 12px;
+padding-bottom: 12px;
+padding-left: 5px;
+padding-right: 15px;
 cursor: pointer;
 color: rgb(255, 255, 255);
 font-family:" Azeret Mono";
@@ -79,7 +82,16 @@ font-size: 16px;
 font-weight: 600;
 letter-spacing: 0%;
 text-align: center;
+transition: background-color 0.3s ease;
+border: none;
 }
+.btn2 a {
+    color: white;
+    text-decoration: none;
+  }
+  .btn2:hover {
+    background-color: #45a049; /* Optional: Darker shade on hover */
+  }
 
 /* main part start here */
 .first-part{
@@ -361,7 +373,7 @@ line-height: 26px;
     background-position: center; /* adjust as needed */
     text-align: center;
     border-radius: 16px;
-
+ 
 
     }
     .last-banner{
